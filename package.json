@@ -1,0 +1,31 @@
+{
+  "name": "blog_new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToTrungKiet/nodejs_epressjs_blog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "blog"
+  ],
+  "author": "KevinDKid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToTrungKiet/nodejs_epressjs_blog/issues"
+  },
+  "homepage": "https://github.com/ToTrungKiet/nodejs_epressjs_blog#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
