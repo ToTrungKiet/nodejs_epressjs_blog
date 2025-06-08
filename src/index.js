@@ -7,6 +7,8 @@ const port = 3001;
 
 app.get("/favicon.ico", (req, res) => res.status(204));
 
+app.use(express.static(path.join(__dirname, "public")));
+
 // HTTP logger
 app.use(morgan("combined"));
 
