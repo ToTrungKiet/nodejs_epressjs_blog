@@ -6,6 +6,10 @@ const app = express();
 const port = 3001;
 
 const route = require("./routes");
+const db = require("./config/db");
+
+// Connect to DB
+db.connect();
 
 app.get("/favicon.ico", (req, res) => res.status(204));
 
