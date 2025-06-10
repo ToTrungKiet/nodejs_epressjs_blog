@@ -1,6 +1,6 @@
-var express = require("express");
-var router = express.Router();
-var siteController = require("../app/controllers/SiteController");
+const express = require("express");
+const router = express.Router();
+const siteController = require("../app/controllers/SiteController");
 
 router.get("/:slug", siteController.search);
 router.get("/", siteController.index);
