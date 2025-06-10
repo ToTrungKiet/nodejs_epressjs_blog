@@ -1,26 +1,47 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">F8 Education</a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <div class="container">
+    <a class="navbar-brand" href="/">F8 Education</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home
-          <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/courses/create">Đăng khóa học</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img
+              src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=j2KhZf5Uq1IQ7kNvwG6b8gd&_nc_oc=Adl6jJbeHnkp8y8y2Bq6AyqRQgye5WYaeM3188OD2qZCNXJTCtCov1k3TXuoJMsxNY4&_nc_zt=24&_nc_ht=scontent.fsgn5-8.fna&oh=00_AfNXDJ-yJ-JLHKr92MGrwPNUREFZK7cMzQCCYSJHddcyYw&oe=686FB7FA"
+              alt="Avatar"
+              class="user-avatar"
+            />
+            Trung Kiet
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/courses/create">Đăng khóa học</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/me/stored/courses">Khóa học của tôi</a>
+            <a class="dropdown-item" href="/me/stored/news">Bài viết của tôi</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Đăng xuất</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
